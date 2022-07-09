@@ -15,7 +15,7 @@ spring:
   klock:
     address: 10.0.1.36:6379
   redis:
-    host: 113.31.105.128
+    host: 127.0.1.36
     port: 6379
     timeout: 20000
     pool:
