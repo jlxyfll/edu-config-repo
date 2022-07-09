@@ -10,7 +10,7 @@ spring:
   klock:
     address: 10.0.1.36:6379
   redis:
-    host: 113.31.105.128
+    host: 10.0.1.36
     port: 6379
     timeout: 5000
     lettuce:
@@ -100,7 +100,7 @@ jetcache:
         minIdle: 5
         maxIdle: 20
         maxTotal: 50
-      host: 113.31.105.128
+      host: 10.0.1.36
       port: 6379
 
 #网关白名单，无需要签权url
