@@ -13,7 +13,7 @@ spring:
     username: guest
     password: guest
   klock:
-    address: 113.31.105.128:6379
+    address: 10.0.1.36:6379
   redis:
     host: 113.31.105.128
     port: 6379

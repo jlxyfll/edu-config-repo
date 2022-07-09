@@ -8,7 +8,7 @@ spring:
     username: root
     password: 12345678
   klock:
-    address: 113.31.105.128:6379
+    address: 10.0.1.36:6379
   rabbitmq:
     host: 127.0.0.1
     port: 5672
