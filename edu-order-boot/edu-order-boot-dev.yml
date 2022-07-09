@@ -8,9 +8,9 @@ spring:
             ds0:
                 type: com.alibaba.druid.pool.DruidDataSource
                 driver-class-name: com.mysql.jdbc.Driver
-                username: edurw
-                password: edurw
-                url: jdbc:mysql://113.31.119.154:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+                username: root
+                password: 12345678
+                url: jdbc:mysql://10.0.1.33:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
                 filters: stat,wall,log4j
                 maxActive: 20
                 initialSize: 1
@@ -49,10 +49,10 @@ spring:
                         # 是否在启动时检查分表元数据一致性
                         enabled: false
   rabbitmq:
-    host: 113.31.119.154
+    host: 127.0.0.1
     port: 5672
-    username: root
-    password: 123456
+    username: guest
+    password: guest
   klock:
     address: 113.31.105.128:6379
   redis:

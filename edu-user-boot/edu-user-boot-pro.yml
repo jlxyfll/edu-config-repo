@@ -5,15 +5,15 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://172.16.86.47:3306/edu_user?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: edurw
-    password: edurw
+    username: root
+    password: 12345678
   klock:
     address: 172.16.179.134:6379
   rabbitmq:
     host: 172.16.86.47
     port: 5672
-    username: root
-    password: 123456
+    username: guest
+    password: guest
 
 management:
   endpoints:

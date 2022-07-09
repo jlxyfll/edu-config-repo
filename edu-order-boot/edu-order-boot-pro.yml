@@ -8,8 +8,8 @@ spring:
             ds0:
                 type: com.alibaba.druid.pool.DruidDataSource
                 driver-class-name: com.mysql.jdbc.Driver
-                username: edurw
-                password: edurw
+                username: root
+                password: 12345678
                 url: jdbc:mysql://172.16.86.47:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
                 filters: stat,wall,log4j
                 maxActive: 20
@@ -51,8 +51,8 @@ spring:
   rabbitmq:
     host: 172.16.86.47
     port: 5672
-    username: root
-    password: 123456
+    username: guest
+    password: guest
   klock:
     address: 172.16.179.134:6379
   redis:

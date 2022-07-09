@@ -5,8 +5,8 @@ spring:
   rabbitmq:
     host: 172.16.86.47
     port: 5672
-    username: root
-    password: 123456
+    username: guest
+    password: guest
   klock:
     address: 172.16.179.134:6379
   redis:

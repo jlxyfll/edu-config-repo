@@ -4,14 +4,14 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://113.31.119.154:3306/edu_pay?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: edurw
-    password: edurw
-  rabbitmq:
-    host: 113.31.119.154
-    port: 5672
+    url: jdbc:mysql://10.0.1.33:3306/edu_pay?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: 123456
+    password: 12345678
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   klock:
     address: 113.31.105.128:6379
   redis:

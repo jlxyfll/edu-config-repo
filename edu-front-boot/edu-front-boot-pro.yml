@@ -23,8 +23,8 @@ spring:
   rabbitmq:
     host: 172.16.86.47
     port: 5672
-    username: root
-    password: 123456
+    username: guest
+    password: guest
   oauth:
     client_id: test_client
     client_secret: test_secret
