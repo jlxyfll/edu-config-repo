@@ -37,7 +37,7 @@ spring:
     servlet:
       content-type: text/html
 rocketmq:
-  name-server: 113.31.105.128:9876
+  name-server: 127.0.0.1:9876
   producer:
     group: edu_group
   consumer:
