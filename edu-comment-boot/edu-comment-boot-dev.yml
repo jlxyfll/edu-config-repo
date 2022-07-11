@@ -5,7 +5,7 @@ spring:
   data:
     mongodb:
       database: edu_comment
-      host: 113.31.105.128
+      host: 10.0.1.35
       port: 27017
   klock:
     address: 10.0.1.36:6379
